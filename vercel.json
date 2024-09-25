@@ -38,5 +38,10 @@
       ]
     }
   ],
-  "buildCommand": "bun run build:vc"
+  "buildCommand": "bun run build:vc",
+  "functions": {
+    "api/**/*.ts": {
+      "runtime": "nodejs16.x" // or another supported version
+    }
+  }
 }
